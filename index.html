@@ -110,3 +110,42 @@
         xhr.send(form);
     }
 </script> -->
+
+<!-- <script>
+
+    var url = '@URL';
+
+    // Đăng nhập
+    function Login() {
+        var phone = $('#txtPhone').val();
+        var pass = $('#txtPass').val();
+        if (phone.length == 0 || pass.length == 0) {
+            alert("Phải nhập số điện thoại và mật khẩu!");
+            return;
+        }
+        ShowLoad();
+        var form = new FormData();
+        form.append('phone', phone);
+        form.append('pass', pass);
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", url + "/Unity/Login", true);
+        xhr.timeout = 30000;
+        xhr.ontimeout = function () {
+            HideLoad();
+            alert('Hệ thống tạm thời không khả dụng! Thử lại sau ít phút.');
+        }
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var ms = JSON.parse(xhr.responseText);
+                if (ms.status == "OK") {
+                    window.location = '/';
+                }
+                else {
+                    $('#MS').css('display','block');
+                    HideLoad();
+                }
+            }
+        }
+        xhr.send(form);
+    }
+</script> -->
