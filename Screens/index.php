@@ -22,9 +22,9 @@
      	            <?php } ?>
 
                     <p class="title" style="color: #046543;margin-top: 30px; font-size: 16px"><b>Số điện thoại</b></p>
-                    <input type="text" name="uname" placeholder="User Name" style="width: 323px; height: 31px" />
+                    <input type="text" name="uname" placeholder="Username" style="width: 323px; height: 31px" />
                     <p class="title" style="color: #046543;margin-top: 30px; font-size: 16px"><b>Mật khẩu</b></p>
-                    <input type="password" name="password" placeholder="Password" style="width: 323px; height: 31px" />
+                    <input type="password" name="pass" placeholder="Password" style="width: 323px; height: 31px" />
                     <button class="button" style="color: #F6C017; padding: 10px; text-decoration: none;"><b>ĐĂNG NHẬP</b></a></button>
                     <p class="title" type="submit" style="color: #9ba9a4; margin-top: 10px; margin-left:115px; font-style: italic; font-size: 14px">Chưa có tài khoản? <a href="signup.php">Đăng ký</a> </p>
                 </div>

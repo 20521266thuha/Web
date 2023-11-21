@@ -25,7 +25,7 @@
                 <p class="title" style="color: #046543;margin-top: 10px; font-size: 16px"><b><i>Nhập lại mật khẩu (*)</i></b></p>
                 <input style="width: 323px; height: 17px" />
                 <button class="button" style="margin-top: 30px;"><p><b>ĐĂNG KÝ</b></p></button>
-                <p class="title" style="color: #9ba9a4; margin-top: 10px; margin-left:115px; font-style: italic; font-size: 14px">Đã có tài khoản? <a href="login.html">Đăng nhập</a> </p>
+                <p class="title" style="color: #9ba9a4; margin-top: 10px; margin-left:115px; font-style: italic; font-size: 14px">Đã có tài khoản? <a href="index.php">Đăng nhập</a> </p>
             </div>
         </div>
     </div>
